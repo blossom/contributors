@@ -1,0 +1,51 @@
+.contributors {
+  width: 600px;
+  overflow: auto;
+  margin-bottom: 3em;
+}
+.contributors li {
+  width: 178px;
+  margin-right: 12px;
+  margin-bottom: 6px;
+  overflow: auto;
+  float: left;
+  padding: 1px 0px;
+}
+
+.contributors li a {
+  display: block;
+  text-decoration: none;
+  overflow: auto;
+}
+
+.contributors li span {
+  display: block;
+  float: left;
+  margin-left: 12px;
+  font-size: 15px;
+  padding-top: 5px;
+  color: #aaa;
+}
+
+.contributors li a span {
+  color: #888;
+}
+
+.contributors li img {
+  float: left;
+  border: 1px solid #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.contributors li a:hover {
+}
+
+.contributors li a:hover span {
+  color: #000;
+}
+
+.contributors li a:hover img {
+  border: 1px solid #bbb;
+}

@@ -1,0 +1,42 @@
+#brunch-contributors {
+  width: 230px;
+  margin-bottom: 3em;
+}
+#brunch-contributors li {
+  clear: left;
+  margin-bottom: 6px;
+  overflow: auto;
+}
+
+#brunch-contributors li a {
+  display: block;
+  text-decoration: none;
+  overflow: auto;
+}
+
+#brunch-contributors li span {
+  display: block;
+  float: left;
+  margin-left: 18px;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+#brunch-contributors li img {
+  float: left;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#brunch-contributors li a:hover {
+  background: #ecf5fc;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#brunch-contributors li a:hover span {
+  color: #000;
+}
+
