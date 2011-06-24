@@ -241,9 +241,9 @@ contributors.generate('brunch', 'brunch', { imageSize: 40, placeholder: el });
   <p>This widget is developed in <a href="http://jashkenas.github.com/coffee-script/">CoffeeScript</a>. The command <code>cake watch</code> compiles all source including the tests. <code>cake minify</code> generates a minifed version based on lib/contributors.js.</p>
   <p>To run the test suite open <a href="test/runner.html">test/runner.html</a></p>
   <h2>Contributors</h2>
-  <div id="contributors-contributors"></div>
+  <div id="contributors-contributors" class="contributors"></div>
   <script>
-    contributors.generate('blossom', 'contributors', 'contributors-contributors');
+    contributors.generate('blossom', 'contributors', { placeholder: 'contributors-contributors' });
   </script>
 
   <a href="http://www.blossom.io" id="blossom-link">
