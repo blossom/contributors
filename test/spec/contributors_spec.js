@@ -1,4 +1,5 @@
 (function() {
+
   describe('when generating a list entry with a github contributor', function() {
     var entry;
     entry = {};
@@ -56,6 +57,7 @@
       });
     });
   });
+
   describe('when generating a list entry with a non-github contributor', function() {
     var entry;
     entry = {};
@@ -84,6 +86,7 @@
       return expect(span.html()).toEqual('Max Moritz');
     });
   });
+
   describe('when fetching repositories contributors', function() {
     return it('should call jsonp with the correct parameters', function() {
       var callback;
@@ -95,6 +98,7 @@
       return expect(contributors.jsonp).toHaveBeenCalledWith('repos/show/brunch/brunch/contributors/anon', callback);
     });
   });
+
   describe('when generating a contributorList', function() {
     it('should call getContributors with the correct parameters', function() {
       spyOn(contributors, 'getContributors');
@@ -149,6 +153,7 @@
       });
     });
   });
+
   describe('when initializing options', function() {
     describe('without imageSize', function() {
       var options;
@@ -167,4 +172,5 @@
       });
     });
   });
+
 }).call(this);
