@@ -1,5 +1,4 @@
 (function() {
-
   beforeEach(function() {
     return this.addMatchers({
       elementExists: function() {
@@ -7,5 +6,4 @@
       }
     });
   });
-
 }).call(this);

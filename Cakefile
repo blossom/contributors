@@ -29,7 +29,7 @@ task 'minify', 'Create minified version of contributors in lib', ->
   source = uglify.uglify.gen_code abstractSyntaxTree
 
   header = """
-          /* contributors 0.1.0
+          /* contributors 0.1.1
           (c) 2011 Nikolaus Graf, blossom
           contributors may be freely distributed under the MIT license.
           http://blossom.github.com/contributors/
